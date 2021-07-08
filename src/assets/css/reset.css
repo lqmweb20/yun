@@ -1,0 +1,183 @@
+
+body{background:#fff;margin:0;padding:0;font-size:0.14rem;font-family:"Microsoft YaHei","微软雅黑",Tahoma,Arial}
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, menu, nav, output, ruby, section, summary, time, mark, audio, video, input{padding:0;margin:0;box-sizing: border-box;}
+label{cursor:pointer}
+h1,h2,h3,h4,h5,h6,b,strong{font-size:0.16rem;font-weight:400}
+article, aside, details, figcaption, figure, footer, header, menu, nav,section {display: block;}
+ul,ol,li{list-style:none}
+em,i{font-style:normal}
+a{text-decoration:none}
+img{border:none;display:block;max-width: 100%;}
+table,th,td{border-collapse:collapse;border-spacing:0}
+.tc{text-align:center}
+.tl{text-align:left}
+.txj{text-align:justify}
+.tr{text-align:right}
+.fb{font-weight:bold}
+.cutFont{white-space:nowrap;text-overflow:ellipsis;overflow:hidden}
+.ellipsis{overflow:hidden;text-overflow:ellipsis;display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:2}
+::-webkit-scrollbar{height:0;width:0;background-color:transparent}
+.font12{font-size:0.12rem}
+.font13{font-size:0.13rem}
+.font14{font-size:0.14rem}
+.font15{font-size:0.15rem}
+.font16{font-size:0.16rem}
+.font17{font-size:0.17rem}
+.font18{font-size:0.18rem}
+.font19{font-size:0.19rem}
+.font20{font-size:0.2rem}
+.font21{font-size:0.21rem}
+.font22{font-size:0.22rem}
+.font23{font-size:0.23rem}
+.font24{font-size:0.24rem}
+.font25{font-size:0.25rem}
+.font26{font-size:0.26rem}
+.font27{font-size:0.27rem}
+.font28{font-size:0.28rem}
+.font29{font-size:0.29rem}
+.font30{font-size:0.3rem}
+.font31{font-size:0.31rem}
+.font32{font-size:0.32rem}
+.font33{font-size:0.33rem}
+.font34{font-size:0.34rem}
+.font35{font-size:0.35rem}
+.font36{font-size:0.36rem}
+.font37{font-size:0.37rem}
+.font38{font-size:0.38rem}
+.font39{font-size:0.39rem}
+.font40{font-size:0.4rem}
+.font41{font-size:0.41rem}
+.font42{font-size:0.42rem}
+.font43{font-size:0.43rem}
+.font44{font-size:0.44rem}
+.font45{font-size:0.45rem}
+.m5{margin:0.05rem}
+.mt5{margin-top:0.05rem}
+.mb5{margin-bottom:0.05rem}
+.mlr5{margin:0 0.05rem}
+.mtb5{margin:0.05rem 0}
+.ml5{margin-left:0.05rem}
+.mr5{margin-right:0.05rem}
+.p5{padding:0.05rem}
+.pt5{padding-top:0.05rem}
+.pb5{padding-bottom:0.05rem}
+.plr5{padding:0 0.05rem}
+.ptb5{padding:0.05rem 0}
+.pr5{padding-right:0.05rem}
+.pl5{padding-left:0.05rem}
+.m10{margin:0.1rem}
+.mt10{margin-top:0.1rem}
+.mb10{margin-bottom:0.1rem}
+.mlr10{margin:0 0.1rem}
+.mtb10{margin:0.1rem 0}
+.ml10{margin-left:0.1rem}
+.mr10{margin-right:0.1rem}
+.p10{padding:0.1rem}
+.pt10{padding-top:0.1rem}
+.pb10{padding-bottom:0.1rem}
+.plr10{padding:0 0.1rem}
+.ptb10{padding:0.1rem 0}
+.pr10{padding-right:0.1rem}
+.pl10{padding-left:0.1rem}
+.m15{margin:0.15rem}
+.mt15{margin-top:0.15rem}
+.mb15{margin-bottom:0.15rem}
+.mlr15{margin:0 0.15rem}
+.mtb15{margin:0.15rem 0}
+.ml15{margin-left:0.15rem}
+.mr15{margin-right:0.15rem}
+.p15{padding:0.15rem}
+.pt15{padding-top:0.15rem}
+.pb15{padding-bottom:0.15rem}
+.plr15{padding:0 0.15rem}
+.ptb15{padding:0.15rem 0}
+.pr15{padding-right:0.15rem}
+.pl15{padding-left:0.15rem}
+.m20{margin:0.2rem}
+.mt20{margin-top:0.2rem}
+.mb20{margin-bottom:0.2rem}
+.mlr20{margin:0 0.2rem}
+.mtb20{margin:0.2rem 0}
+.ml20{margin-left:0.2rem}
+.mr20{margin-right:0.2rem}
+.p20{padding:0.2rem}
+.pt20{padding-top:0.2rem}
+.pb20{padding-bottom:0.2rem}
+.plr20{padding:0 0.2rem}
+.ptb20{padding:0.2rem 0}
+.pr20{padding-right:0.2rem}
+.pl20{padding-left:0.2rem}
+.m25{margin:0.25rem}
+.mt25{margin-top:0.25rem}
+.mb25{margin-bottom:0.25rem}
+.mlr25{margin:0 0.25rem}
+.mtb25{margin:0.25rem 0}
+.ml25{margin-left:0.25rem}
+.mr25{margin-right:0.25rem}
+.p25{padding:0.25rem}
+.pt25{padding-top:0.25rem}
+.pb25{padding-bottom:0.25rem}
+.plr25{padding:0 0.25rem}
+.ptb25{padding:0.25rem 0}
+.pr25{padding-right:0.25rem}
+.pl25{padding-left:0.25rem}
+.m30{margin:0.3rem}
+.mt30{margin-top:0.3rem}
+.mb30{margin-bottom:0.3rem}
+.mlr30{margin:0 0.3rem}
+.mtb30{margin:0.3rem 0}
+.ml30{margin-left:0.3rem}
+.mr30{margin-right:0.3rem}
+.p30{padding:0.3rem}
+.pt30{padding-top:0.3rem}
+.pb30{padding-bottom:0.3rem}
+.plr30{padding:0 0.3rem}
+.ptb30{padding:0.3rem 0}
+.pr30{padding-right:0.3rem}
+.pl30{padding-left:0.3rem}
+.clearfix:after{content:"";display:block;clear:both}
+.fl{float:left}
+.fr{float:right}
+.cl{clear:both}
+.posir{position:relative}
+.inline-block{display:inline-block}
+.none{display:none}
+.block {
+    display: block
+}
+.flex{display:flex}
+.flex-jc{justify-content:center}
+.flex-ja{justify-content:space-around}
+.flex-jb{justify-content:space-between}
+.flex-je{justify-content:space-evenly}
+.flex-jend{justify-content:flex-end}
+.flex-aend{align-items:flex-end}
+.flex-ac{align-items:center}
+.flex-ab{align-items:baseline}
+.flex-w{flex-wrap:wrap}
+.flex-c{flex-direction:column}
+.grid{display:grid}
+.bgcolor{background-color:#eeeded}
+.bgGray{background-color:#f2f2f2}
+.bgRed{background-color:red}
+.bgBlue{background-color:#6c97e0}
+.bgBrown{background-color:#666}
+.bgGra{background-color:#999}
+.bgGreen{background-color:#2d9b01}
+.bgOrange{background-color:#ff6400}
+.bgWhite{background-color:#fff}
+.bgz{background-color:#c50cbe}
+.bgc{background-color:#ffbeb0}
+.bgretin{background-color:#c4474c}
+.blue{color:#157ff6}
+.brown{color:#666}
+.gray{color:#999}
+.green{color:#2d9b01}
+.orange{color:#ff6400}
+.red{color:#f00}
+.black{color:black}
+.white{color:#fff}
+.va{vertical-align:middle}
+
+
+
